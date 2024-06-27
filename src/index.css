@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body Css */
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Bg Color */
+
+.bgPrimary {
+  @apply bg-[#38AB1E];
+}
+
+.bgSecondary {
+  @apply bg-white;
+}
+
+.bgThard {
+  @apply bg-[#222222];
+}
+
+/* Text Color */
+.textPrimary {
+  @apply text-[#38AB1E];
+}
+
+.textSecondary {
+  @apply text-white;
+}
+
+.textThardary {
+  @apply text-[#222222];
+}
+
+/* Button  Style */
+.btnPrimary {
+  color: white;
+  background-color: #222222;
+  padding: 8px 13px;
+  border-radius: 18px;
+  font-size: 14px;
+}
+
+.btnPrimary:hover {
+  background-color: #38ab1e;
+  border: 1px solid white;
+}
+
+.btnSecondary {
+  color: white;
+  background-color: #38ab1e;
+  padding: 8px 13px;
+  border-radius: 18px;
+  font-size: 14px;
+}
+
+.btnSecondary:hover {
+  background-color: #222222;
+  border: 1px solid white;
+}
+
+/* Other Code */
+.flexContainer {
+  display: flex;
+  align-items: center;
+}
